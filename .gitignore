@@ -1,6 +1,7 @@
 *~
 *#
 .svn
+.idea/**
 .swp
 tmp/*
 .DS_Store

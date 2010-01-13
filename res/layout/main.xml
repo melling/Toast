@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/videoview" android:orientation="vertical"
+        android:layout_marginTop="0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:focusable="false" android:layout_gravity="top|center"
+        />
+    <skylight1.toast.view.TypeFaceTextView android:id="@+id/videoText"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:padding="10dip" android:layout_gravity="center|center"
+        android:focusable="false" android:textSize="26dip" android:textColor="#000055"
+        typeface="skylight.ttf" android:visibility="gone" android:background="#00000000"/>
+</merge>

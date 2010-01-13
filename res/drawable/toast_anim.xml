@@ -1,0 +1,15 @@
+<!-- Animation frames are wheel0.png - wheel5.png files inside the
+ res/drawable/ folder -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:oneshot="false"
+                xmlns="http://schemas.android.com/apk/res/skylight1.toast">
+    <item android:drawable="@drawable/toast1" android:duration="150"/>
+    <item android:drawable="@drawable/toast2" android:duration="150"/>
+    <item android:drawable="@drawable/toast3" android:duration="150"/>
+    <item android:drawable="@drawable/toast4" android:duration="150"/>
+    <item android:drawable="@drawable/toast5" android:duration="150"/>
+    <item android:drawable="@drawable/toast6" android:duration="150"/>
+    <item android:drawable="@drawable/toast7" android:duration="150"/>
+    <item android:drawable="@drawable/toast8" android:duration="150"/>
+</animation-list>
+        

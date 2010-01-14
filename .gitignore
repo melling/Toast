@@ -13,6 +13,7 @@ tmp/*
 *.tmproj
 ivy.xml
 *.iws
+*.iml
 .classpath
 .DS_Store
 .project

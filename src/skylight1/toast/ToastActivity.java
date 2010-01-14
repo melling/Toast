@@ -56,8 +56,8 @@ public class ToastActivity extends Activity implements TiltDetector.TiltListener
     }
 
 
-//	private SurfaceView preview;
-//	private SurfaceHolder holder;
+	private SurfaceView preview;
+	private SurfaceHolder holder;
     private MediaPlayer mp;
 
     /**
@@ -112,6 +112,8 @@ public class ToastActivity extends Activity implements TiltDetector.TiltListener
                 return false;
             }
         };
+
+        img.setOnTouchListener(onTouchListener);
 //		preview.setOnTouchListener(onTouchListener);
 
 //		holder = preview.getHolder();
@@ -119,7 +121,8 @@ public class ToastActivity extends Activity implements TiltDetector.TiltListener
 
         mSoundPlayer = new SoundPlayer(this);
         mTiltDetector = new TiltDetector(this);
-
+        fadeOutText();
+        
         //Use volume controls for stream we output on.
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
